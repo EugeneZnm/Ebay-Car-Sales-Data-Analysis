@@ -36,7 +36,7 @@ The initial exploration to determine cleaing tasks to be done, focusing on:
 There was contitnued exploraion of the data to identify data that doesn't fit. Conducting and analysis of price and odometer_km columns:
 looking for any outlying values that are unrealistically high or low that should be removed.
 
-THe next step enatiled Exploring Registration Years where I found there were outlying values in terms of the regostration years of vehicles with some being far into the past before vehicles were invented and the rest being into the future beyond the present time period.
+The next step enatiled exploration of registration years where I found there were outlying values in terms of the regostration years of vehicles with some being far into the past before vehicles were invented and the rest being into the future beyond the present time period.
 This was follwed by the removal of rows with vehicle registration dates earlier then when the cars were made and those beyond the latest dates of the dataset. Cars available for public use en masse existed largely during the onset of the 20th century so all registration years dates prior to 1900 are invalid as are those with registration dates beyond the latest date of the date set 2016.
 
 The next step was the exploration of vehicle brands to determine the top brand of cars listed. These are brands that individually make up more than 5% of the car listings, along with determining the average prices for each brand of car along with the average milage for each brand.
